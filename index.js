@@ -3,7 +3,6 @@ const createServer = require("./utils/createServer");
 const dbConfig = require("./utils/dbConfig");
 const serverless = require("serverless-http");
 
-
 const app = createServer();
 // dbConfig.initializeAppFunction();
 // dbConfig.uploadData();
@@ -14,7 +13,7 @@ const app = createServer();
 const apiRecordMiddleware = require("./middlewares/apiRecord");
 const evaluationMiddleware = require("./middlewares/evaluationMiddleware");
 // app.use(apiRecordMiddleware);
-// app.use(evaluationMiddleware);
+
 
 // Capacity Routes
 const capacityBusinessDebtRoutes = require("./routes/capacity/business/debt/capacityBusinessDebtRoutes");
