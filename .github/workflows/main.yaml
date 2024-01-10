@@ -1,0 +1,30 @@
+name: Deploy to GCP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Deploy to GCP
+        env:
+          PROJECT_ID: <unisynbe-410812>
+        run: |
+          gcloud auth activate-service-account --key-file=<(echo ${{ secrets.GCP_SA_KEY }})
+          gcloud config set project $unisyn-d676f
+          gcloud app deploy
