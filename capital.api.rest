@@ -1,0 +1,15 @@
+#Capital Perosonal
+GET http://localhost:8080/api/v1/capitalPersonal/2cad7c32-9d76-11ee-8c90-0242ac120002
+###
+GET http://localhost:8080/api/v1/capitalPersonal/getFinancialSummary/2cad7c32-9d76-11ee-8c90-0242ac120002
+###
+GET http://localhost:8080/api/v1/capitalPersonal/getBalanceSheet/2cad7c32-9d76-11ee-8c90-0242ac120002
+### 
+GET http://localhost:8080/api/v1/capitalPersonal/getFinancialStatement/2cad7c32-9d76-11ee-8c90-0242ac120002
+# Capital Business
+###
+GET http://localhost:8080/api/v1/capitalBusiness/2cad7c32-9d76-11ee-8c90-0242ac120002
+###
+GET http://localhost:8080/api/v1/capitalBusiness/getBalanceSheetSummary/2cad7c32-9d76-11ee-8c90-0242ac120002
+###
+GET http://localhost:8080/api/v1/capitalBusiness/viewBalanceSheetSummary/2cad7c32-9d76-11ee-8c90-0242ac120002

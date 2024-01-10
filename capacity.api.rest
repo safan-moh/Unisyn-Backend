@@ -1,0 +1,49 @@
+#--- Capacity Business Debt-----
+
+GET http://localhost:8080/api/v1/capacityBusinessDebt/2cad7c32-9d76-11ee-8c90-0242ac120003
+###
+GET http://localhost:8080/api/v1/capacityBusinessDebt/currentDebt/2cad7c32-9d76-11ee-8c90-0242ac120003
+
+#-- Capacity Personal Debt ----
+###
+GET http://localhost:8080/api/v1/capacityPersonalDebt/2cad7c32-9d76-11ee-8c90-0242ac120003
+###
+GET http://localhost:8080/api/v1/capacityPersonalDebt/currentDebt/2cad7c32-9d76-11ee-8c90-0242ac120003
+
+#-- Capacity Business Cashflow ----
+###
+GET http://localhost:8080/api/v1/capacityBusinessCashflow/2cad7c32-9d76-11ee-8c90-0242ac120003
+###
+GET http://localhost:8080/api/v1/capacityBusinessCashflow/profit-loss-summary/2cad7c32-9d76-11ee-8c90-0242ac120003
+
+#-- Capacity Personal Cashflow ----
+###
+GET http://localhost:8080/api/v1/capacityPersonalCashflow/2cad7c32-9d76-11ee-8c90-0242ac120003
+###
+GET http://localhost:8080/api/v1/capacityPersonalCashflow/profit-loss-summary/2cad7c32-9d76-11ee-8c90-0242ac120003
+
+#-- DSCR Formula --
+###
+GET http://localhost:8080/api/v1/capacityBusinessDebt/DSCR-formula/2cad7c32-9d76-11ee-8c90-0242ac120002
+
+#-- Debt to income ratio Formula --
+###
+GET http://localhost:8080/api/v1/capacityBusinessDebt/debt-to-income-formula/2cad7c32-9d76-11ee-8c90-0242ac120002
+
+#-- Full Debt Schedule --
+###
+GET http://localhost:8080/api/v1/capacityBusinessDebt/fullDebtSchedule/2cad7c32-9d76-11ee-8c90-0242ac120002
+
+#-- Capacity Business Cashflow profit loss statement --
+###
+GET http://localhost:8080/api/v1/capacityBusinessCashflow/profit-loss-statement/2cad7c32-9d76-11ee-8c90-0242ac120002
+
+-- Capacity Business Cashflow Top Customers --
+###
+GET http://localhost:8080/api/v1/capacityBusinessCashflow/top-customers/2cad7c32-9d76-11ee-8c90-0242ac120002
+
+-- Capacity Business Cashflow Formula --
+###
+GET http://localhost:8080/api/v1/capacityBusinessCashflow/formula/2cad7c32-9d76-11ee-8c90-0242ac120002
+
+
